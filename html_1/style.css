@@ -1,19 +1,15 @@
 .container {
-	padding: 15px;
-	max-width: 1200px;
+	max-width: 800px;
 	margin: 0 auto;
-	background-color: rgb(240, 235, 235);
+	background-color: rgb(228, 224, 224);
+	padding: 15px;
 }
 
-.dash {
-	border: 1px solid #000;
+h1 {
+	text-align: center;
 }
 
-.list {
-	list-style-type: none;
-	padding: 0;
-}
-
-a:visited {
-	color: blue;
+.title {
+	text-transform: uppercase;
+	color: grey;
 }
