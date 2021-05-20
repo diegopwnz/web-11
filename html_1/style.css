@@ -2,9 +2,35 @@
 	padding: 15px;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: rgb(240, 235, 235);
+	background-color: rgb(252, 247, 247);
 }
 
 .dotted {
 	border-bottom: 2px dotted;
+}
+
+.main__title {
+	font-size: 38px;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+}
+
+code {
+	color: red;
+	background-color: rgb(228, 224, 224);
+}
+
+pre {
+	background-color: rgb(228, 224, 224);
+}
+
+a {
+	color: rgb(61, 70, 62)
+}
+
+a:visited {
+	color: rgb(61, 70, 62)
 }
