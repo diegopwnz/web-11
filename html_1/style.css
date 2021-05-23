@@ -34,3 +34,11 @@ a {
 a:visited {
 	color: rgb(61, 70, 62)
 }
+
+.header__link {
+	color: rgb(156, 187, 187);
+}
+
+.header__link:visited {
+	color: rgb(156, 187, 187);
+}
