@@ -6,15 +6,15 @@
 }
 
 .black {
-	background-color: rgb(192, 189, 189);
 	color: #000;
-	font-size: 40px;
-	padding: 10px;
 }
 
 .red {
-	background-color: rgb(192, 189, 189);
 	color: red;
+}
+
+.card {
+	background-color: rgb(192, 189, 189);
 	font-size: 40px;
 	padding: 10px;
 }
