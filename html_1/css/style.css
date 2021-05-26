@@ -14,6 +14,22 @@ p::first-letter {
 	text-align: center;
 }
 
-p{
-
+.quote {
+	font-size: 12px;
 }
+
+.shadow {
+	position: relative;
+}
+
+.shadow::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	content: "";
+	background-image: linear-gradient(0deg, rgba(240, 235, 235, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%); */
