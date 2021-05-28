@@ -1,19 +1,30 @@
-.container {
-	padding: 15px;
-	max-width: 1200px;
+.main {
+	background-color: rgb(226, 226, 226);
+	max-width: 720px;
 	margin: 0 auto;
-	background-color: rgb(240, 235, 235);
+	padding: 25px;
+}
+.main__title {
+	text-align: center;
+}
+.sub__title {
+	font-size: 18px;
 }
 
-.dash {
-	border: 1px solid #000;
+.red {
+	background-color: rgb(190, 91, 91);
+	padding: 5px;
 }
 
-.list {
-	list-style-type: none;
-	padding: 0;
+.red__text {
+	color: red;
+}
+.formula {
+	margin-left: 500px;
+	background-color: rgb(202, 49, 49);
 }
 
-a:visited {
-	color: blue;
+.formula__wrapper {
+	text-align: center;
+	display: block;
 }
