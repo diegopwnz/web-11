@@ -1,19 +1,24 @@
-.container {
-	padding: 15px;
-	max-width: 1200px;
+.main {
+	max-width: 800px;
 	margin: 0 auto;
-	background-color: rgb(240, 235, 235);
+	background: rgb(226, 224, 224);
+	padding: 15px 15px 15px 50px;
 }
-
-.dash {
-	border: 1px solid #000;
-}
-
 .list {
-	list-style-type: none;
-	padding: 0;
+	list-style-image: url(img/arrow-right.svg);
 }
 
-a:visited {
-	color: blue;
+.list__inside-snow {
+	list-style-image: url(img/snej.svg);
+}
+
+.list__inside-carrot {
+	list-style-image: url(img/carrot.svg);
+}
+.list__inside-apple {
+	list-style-image: url(img/apple.svg);
+}
+
+.list__inside-autumn {
+	list-style-image: url(img/autumn.svg);
 }
