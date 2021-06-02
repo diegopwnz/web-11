@@ -1,19 +1,46 @@
-.container {
-	padding: 15px;
-	max-width: 1200px;
+.main {
+	max-width: 600px;
+	background-color: rgb(240, 240, 240);
 	margin: 0 auto;
-	background-color: rgb(240, 235, 235);
-}
-
-.dash {
-	border: 1px solid #000;
+	padding-left: 25px;
 }
 
 .list {
 	list-style-type: none;
-	padding: 0;
 }
 
-a:visited {
-	color: blue;
+.list__item {
+	height: 40px;
+	line-height: 36px;
+	margin-right: 45px;
+}
+
+.checked {
+	background-color: inherit;
+}
+
+.blue {
+	background-color: rgb(88, 88, 136);
+}
+
+.list__item::before {
+	content: " ";
+	background-image: url(img/square.svg);
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 15px;
+	position: relative;
+	left: 5px;
+	top: 10px;
+
+}
+
+.list__item::after {
+	content: " ";
+	background: url(img/cross.svg) no-repeat;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	margin-left: 15px;
 }
