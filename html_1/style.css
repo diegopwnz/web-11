@@ -19,7 +19,7 @@ li::before {
 	color: #fff;
 }
 
-li {
+.list__item {
 	color: #fff;
 	margin-bottom: 10px;
 	background: rgb(243, 110, 110);
@@ -27,7 +27,7 @@ li {
 	counter-increment: item;
 }
 
-span {
+.list__item-name {
 	margin-left: 15px;
 	padding: 10px;
 	background: rgb(182, 4, 4);
