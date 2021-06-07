@@ -1,14 +1,117 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
+body {
+	margin: 15px;
 }
 
-h1 {
+.header {
+	background-color: rgb(179, 72, 72);
+	padding: 0 0 0 50px;
+	height: 100px;
+
+}
+
+.header {
+	position: relative;
+}
+
+.header__title {
+	position: absolute;
+	margin: 0;
+	top: 35%;
+	color: #fff;
+	font-size: 18px;
+}
+
+.nav {
+	margin-top: 15px;
+	height: 60px;
+	background-color: rgb(214, 19, 19);
+	position: relative;
+	padding: 0 0 0 50px;
+}
+
+.nav__title {
+	position: absolute;
+	color: #fff;
+	font-size: 18px;
+}
+
+.aside__container {
+	float: left;
+}
+
+.aside__first {
+	background-color: rgb(179, 72, 72);
+	padding: 10px 10px 10px 50px;
+	width: 300px;
+
+	margin: 15px 0 15px 0;
+	font-size: 18px;
+	color: #fff;
+}
+
+.aside__two {
+	background-color: rgb(179, 72, 72);
+	padding: 10px 10px 10px 50px;
+	width: 300px;
+	margin: 15px 0 15px 0;
+	font-size: 18px;
+	color: #fff;
+	height: 150px;
+}
+
+.main {
+	margin: 0 auto;
+	display: block;
+	background-color: rgb(179, 72, 72);
+	max-width: 50%;
+	height: 400px;
+	color: #fff;
+
+
+}
+
+.main__title {
+	padding: 25px 0 0 100px;
+	font-size: 18px;
+}
+
+.section {
+	margin: 0 auto;
+	max-width: 80%;
+	background-color: rgb(221, 113, 113);
+	min-height: 120px;
+}
+
+.section__title {
+	padding: 15px 0 0 30px;
+	font-size: 18px;
+}
+
+.aside__three {
+	float: right;
+	width: 300px;
+	background-color: rgb(179, 72, 72);
+	height: 300px;
+	position: absolute;
+	right: 1%;
+	top: 200px;
+	color: #fff;
+	font-size: 18px;
 	text-align: center;
 }
 
-.title {
-	color: grey;
+.aside__three-title {
+	width: .7em;
+	text-align: center;
+	word-wrap: break-word;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.footer {
+	margin-top: 50px;
+	padding: 15px 0 25px 50px;
+	height: 30px;
+	background-color: rgb(214, 19, 19);
+	color: #fff;
 }
