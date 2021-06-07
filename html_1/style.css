@@ -1,14 +1,27 @@
-.container {
-	max-width: 800px;
+.list {
+	list-style-type: none;
+	max-width: 200px;
 	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
 }
 
-h1 {
-	text-align: center;
+.list__item {
+	width: 200px;
+	padding-top: 15px;
+	background-color: grey;
 }
 
-.title {
-	color: grey;
+.list__img {
+	width: 45px;
+	vertical-align: middle;
+
+}
+
+.list__text {
+	display: inline-block;
+	margin: 0 0 25px 35px;
+	color: #fff;
+}
+
+.list__item:hover {
+	background-color: rgb(85, 85, 85);
 }
