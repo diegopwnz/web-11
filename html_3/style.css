@@ -1,0 +1,12 @@
+.main {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.frame {
+	margin-bottom: 50px;
+}
+
+.images__item {
+	margin: 15px;
+}
