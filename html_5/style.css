@@ -1,0 +1,26 @@
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.heart {
+	filter: grayscale(100%);
+	width: 25%;
+}
+
+@keyframes incognito {
+	from {
+		width: 25%;
+	}
+	to {
+		width: 50%;
+		filter: none;
+	}
+}
+
+.heart:hover {
+	animation: incognito 2s linear;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}

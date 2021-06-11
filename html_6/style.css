@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	overflow: hidden;
+}
+
+.title {
+	text-align: center;
+}
+@keyframes showcalc {
+	from {
+		transform: rotate(-20deg) translateY(600px) translateX(-20px);
+	}
+	to {
+		transform: rotate(-20deg) translateY(20px) translateX(-20px);
+	}
+}
+@keyframes showbook {
+	from {
+		transform: rotate(-20deg) translateY(600px) translateX(-20px);
+	}
+	to {
+		transform: rotate(-20deg) translateY(20px) translateX(0px);
+	}
+}
+
+@keyframes showpaper {
+	from {
+		transform: rotate(20deg) translateY(600px) translateX(20px);
+	}
+	to {
+		transform: rotate(20deg) translateY(20px) translateX(20px);
+	}
+}
+.calc {
+	width: 80px;
+	transform: rotate(-20deg) translateY(20px) translateX(-20px);
+	animation: showcalc 2s linear;
+}
+.book {
+	width: 100px;
+	transform: rotate(-15deg);
+	animation: showbook 2s linear;
+}
+
+.paper {
+	width: 100px;
+	transform: rotate(15deg);
+	animation: showpaper 2s linear;
+}
+.pallete {
+	width: 80px;
+	transform: rotate(20deg) translateY(20px) translateX(20px);
+}
+.center {
+	text-align: center;
+}
+
+.pencill {
+	width: 50px;
+	transform: rotate(90deg);
+}
