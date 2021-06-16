@@ -1,14 +1,67 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 
-h1 {
-	text-align: center;
+.main {
+	width: calc(8rem + 15px);
+	height: calc(8rem + 15px);
+	border-radius: 50%;
+	background: rgb(11, 158, 151);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.title {
-	color: grey;
+.clock {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 8rem;
+	width: 8rem;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.strelki {
+	width: 0.7rem;
+	height: 0.7rem;
+	background: rgb(11, 158, 151);
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.clock::before,
+.clock::after {
+	position: absolute;
+	content: '';
+	top: 11%;
+	width: 10px;
+	background: rgb(11, 158, 151);
+	border-radius: 8px;
+	transform-origin: center calc(100% - calc(0.4rem / 2));
+	animation: clock-rotate infinite linear;
+}
+
+.clock::before {
+	height: 3.2rem;
+	animation-duration: 3s;
+}
+
+.clock::after {
+	top: calc(4rem * 0.25 + 1.6rem);
+	height: 1.6rem;
+	animation-duration: 60s;
+}
+
+@keyframes clock-rotate {
+	to {
+		transform: rotate(360deg);
+	}
 }
