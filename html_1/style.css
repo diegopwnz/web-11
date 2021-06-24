@@ -1,14 +1,9 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
-}
-
-h1 {
+table {
+	border-spacing: 0 0;
 	text-align: center;
 }
 
-.title {
-	color: grey;
+th {
+	position: sticky;
+	top: 0;
 }
