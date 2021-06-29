@@ -1,0 +1,35 @@
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.container {
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	top: 40%;
+	text-align: center;
+	margin-left: 25px;
+	font-size: 20px;
+	color: azure;
+}
+
+.img:hover {
+	filter: brightness(50%);
+	overflow: hidden;
+	transform: scale(1.1);
+	transition-duration: 3s;
+}
+
+.text:hover {
+	filter: opacity(40%);
+	transition-duration: 0.3s;
+}
+
+.block__img-two:hover {
+	filter: opacity(40%);
+	transition-duration: 0.3s;
+}
