@@ -48,13 +48,27 @@ body {
 	color: #fff;
 }
 
+@media (max-width: 900px) {
+	.main {
+		margin-left: 50px;
+	}
+}
+
 @media (max-width: 600px) {
+
+	.main {
+		margin: 0 0 0 50px;
+	}
+
+	.column {
+		display: flex;
+	}
 
 	.text__wrapper-wrap {
 		display: flex;
 		flex-wrap: wrap;
 		width: 50%;
-		margin-top: 40px;
+		margin: 40px;
 	}
 
 	.footer__logo {
