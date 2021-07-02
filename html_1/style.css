@@ -24,6 +24,11 @@ body {
 	display: flex;
 }
 
+
+.column {
+	display: flex;
+}
+
 .text__wrapper-wrap {
 	display: flex;
 }
