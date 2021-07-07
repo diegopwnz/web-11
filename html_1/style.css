@@ -1,14 +1,143 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
-h1 {
-	text-align: center;
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+	padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+	list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+	margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(212, 116, 116);
 }
 
 .title {
-	color: grey;
+	margin-top: 15px;
+}
+.login__form {
+	display: flex;
+	flex-direction: column;
+	min-width: 400px;
+	margin: 100px auto;
+	background-color: rgb(189, 187, 187);
+	text-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.input {
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	margin: 25px 0 25px 0;
+	color: #fff;
+	border: none;
+}
+.input:active {
+	border: none;
+}
+.btn {
+	background-color: rgb(28, 207, 103);
+}
+
+.social__wrapper {
+	max-width: 400px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 25px;
+	display: flex;
+}
+.text {
+	color: #fff;
+	text-align: center;
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: -70px;
+}
+
+.social {
+	width: 150px;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	margin: 7px;
+}
+.facebook {
+	background-color: rgba(20, 33, 218, 0.63);
+}
+.twitter {
+	background-color: rgb(16, 108, 131);
+}
+.social__image {
+	width: 15px;
+}
+
+.link {
+	text-decoration: none;
+	color: chocolate;
+	margin-bottom: 15px;
 }
