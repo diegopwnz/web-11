@@ -1,14 +1,40 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(100, 156, 189);
+}
+
+.inner {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1140px;
+	margin: -15px;
+}
+
+.column {
+	width: 33.333%;
 	padding: 15px;
 }
 
-h1 {
-	text-align: center;
+.card {
+	width: 100%;
+	background-color: #fff;
+	margin: 15px;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
+.text__wrapper {
+	padding: 15px;
 }
 
 .title {
-	color: grey;
+	font-size: 16px;
 }
