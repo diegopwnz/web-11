@@ -1,5 +1,8 @@
 body {
-	background-color: rgb(241, 117, 117);
+	background: url("https://picsum.photos/1300/900");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
 }
 
 .form {
@@ -7,4 +10,105 @@ body {
 	flex-direction: column;
 	max-width: 600px;
 	margin: 0 auto;
+	background: url("https://picsum.photos/650/420");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	opacity: 0.95;
+	padding: 25px;
+	box-shadow: 0 0 10px rgba(14, 13, 13, 0.5);
+	margin-top: 150px;
+}
+.title {
+	font-size: 18px;
+	font-weight: 900;
+}
+.title__text {
+	font-size: 12px;
+}
+.form__flex {
+	display: flex;
+}
+
+.form__left {
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	margin-top: -12px;
+	width: 25%;
+}
+
+.form__left-username {
+	margin-top: 25px;
+}
+
+.form__left-email {
+	margin-top: 20px;
+}
+
+.form__left-phone {
+	margin-top: 20px;
+}
+.form__left-subject {
+	margin-top: 11px;
+}
+
+.form__left-message {
+	margin-top: 20px;
+}
+
+.form__right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 250px;
+}
+
+.form__righ-name {
+	display: flex;
+}
+.input__50 {
+	width: 45%;
+	margin: 0 5px 0 5px;
+}
+
+.email {
+	width: 94%;
+	margin: 0px 0 0 5px;
+	margin-top: 5px;
+}
+
+.input__25 {
+	width: 25%;
+	margin: 0 0 0 5px;
+}
+
+.input__40 {
+	width: 38%;
+}
+
+.select {
+	width: 96%;
+	margin: 0px 0 0 4px;
+}
+
+.textarea {
+	width: 95%;
+	margin: 0 0 0 5px;
+}
+
+.hr {
+	border: 1px solid darkblue;
+	width: 98%;
+	background-color: darkblue;
+}
+
+.btn__submit {
+	margin-top: 15px;
+	margin-left: 135px;
+	width: 76%;
+	padding: 5px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 1%;
+	background-color: rgba(255, 255, 255, 0.007);
 }
