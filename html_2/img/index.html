@@ -12,41 +12,30 @@
 <body>
 	<main class="main">
 		<form action="#" class="form">
-			<div class="title__wrapper">
-				<h1 class="title">
-					Contact form
-				</h1>
-
-				<p class="subtitle">
-					Please fill in your information and we'll be sending your order.
-				</p>
+			<div class="form__header">
+				<h1 class="title">Contact form</h1>
+				<p class="title__text">Please fill in your information and we'll be sending your order.</p>
 			</div>
-			<div class="input__wrapper">
-				<label for="name">Your name</label>
-				<input type="text" class="input" type="name" placeholder="First name">
-				<input type="text" class="input" type="name" placeholder="Last name">
-			</div>
-
-			<div class="input__wrapper">
+			<div class="form__left">
+				<label for="username">Your name</label>
 				<label for="email">Your email</label>
-				<input type="text" class="input__width" placeholder="your_mail@mail.com">
+				<label for="phone">Phone *</label>
+				<label for="message subject">Message subject *</label>
+				<label for="message">Message*</label>
 			</div>
-			<div class="input__wrapper">
-				<label for="phone">Phone*</label>
-				<input type="text" class="input__three" placeholder="000">
-				<input type="text" class="input__three" placeholder="000">
-				<input type="text" class="input__three" placeholder="0000">
-			</div>
-			<div class="input__wrapper">
-				<select name="select" id="select" class="input__width">
-					<option value="">Other</option>
-					<option value="">Other</option>
-					<option value="">Other</option>
-				</select>
-			</div>
-			<div class="input__wrapper">
-				<label for="textarea">Message*</label>
-				<textarea name="" id="" cols="30" rows="10"></textarea>
+			<div class="form__right">
+				<div class="form__righ-name">
+					<input class="input__50" type="text" id="username">
+					<input type="text" class="input__50" id="username">
+				</div>
+				<div class="form__right-email">
+					<input type="text" id="email">
+				</div>
+				<div class="form__right-phone">
+					<input type="text" class="input__25" id="phone">
+					<input type="text" class="input__25" id="phone">
+					<input type="text" class="input__40" id="phone">
+				</div>
 			</div>
 		</form>
 	</main>
