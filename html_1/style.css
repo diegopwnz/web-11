@@ -1,14 +1,98 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
+body {
+	font-size: 12px;
 }
 
-h1 {
-	text-align: center;
+
+input {
+	height: 15px;
+}
+
+
+.form {
+	background-color: rgb(130, 206, 206);
+	max-width: 400px;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+	overflow: hidden;
 }
 
 .title {
-	color: grey;
+	font-size: 18px;
+	color: #fff;
+	background-color: rgb(247, 137, 103);
+	padding: 5px 5px 5px 35px;
+	margin-left: -35px;
+}
+
+.card__flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card__item {
+	display: flex;
+	flex-direction: column;
+}
+
+.card__item-date {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+/* input */
+
+.label__date-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 58%;
+}
+
+.number__value {
+	width: 60%;
+	margin-bottom: 15px;
+	background-color: rgb(219, 214, 214);
+	border: none;
+}
+
+.name__value {
+	width: 60%;
+	margin-bottom: 15px;
+	background-color: rgb(219, 214, 214);
+	border: none;
+}
+
+.date__value-left {
+	width: 15%;
+	margin-right: 19px;
+	background-color: rgb(219, 214, 214);
+	border: none;
+}
+
+.date__value-right {
+	width: 15%;
+	margin-right: 19px;
+	background-color: rgb(219, 214, 214);
+	border: none;
+}
+
+.cvv__value {
+	width: 15%;
+	background-color: rgb(219, 214, 214);
+	border: none;
+}
+
+/* input */
+
+.img{
+	width: 135px;
+	position: absolute;
+	right: -35px;
+	bottom: -15px;
 }

@@ -5,44 +5,42 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+
 </head>
 
 <body>
 
-	<main class="container">
-		<h1>Romeo and Juliet</h1>
+	<form action="#" class="form">
 
-		<h2 class="title">act 1</h2>
-		<h2 class="title">prologue</h2>
-		<p>
-			Two households, both alike in dignity, <br>
-			in fair Verona, where we lay our scene, <br>
-			From ancient grudge break to new mutiny, <br>
-			Where civil blood makes civil hands unclean. <br>
-			From forth the fatal loins of these two foes <br>
-			A pair of stars-cross'd lovers take their life; <br>
-			Whose misadventured piteous overthrows <br>
-			Do with their death bury their death-mark'd love, <br>
-			And the continuance of their parents' rage, <br>
-			Which, but their children's end, nought could remove, <br>
-			is now the two hours' traffic of our stage; <br>
-			The which if you with patient ears attend, <br>
-			What here shall miss, our toil shall strive to mend.
-		</p>
+		<div class="card__flex">
+			<h1 class="title">CREDIT CARD DETAILS</h1>
+			<div class="card__item">
+				<label class="number" for="number">Card Number</label>
+				<input id="number" type="number" class="number__value" placeholder="1234 5678 9012 3456">
+			</div>
+			<div class="card__item">
+				<label for="name" class="name">Name On Card</label>
+				<input type="text" class="name__value" id="name" placeholder="Name Surname">
+			</div>
 
-		<h2 class="title">SCENE l. Verona. A public place.</h2>
 
-		<p><i>enter SAMPSON and GREGORY, of the house of Capulet, armed with swords and bucklers</i></p>
-		<h2 class="title">SAMPSON</h2>
+			<div class="card__item-date">
 
-		<p>Gregory, o' my word, we'll not carry coals.</p>
-
-		<h2 class="title">GREGORY</h2>
-		<p>No, for then we should be colliers.</p>
-
-	</main>
+				<div class="label__date-wrapper">
+					<label class="date" for="date">Expiry Date</label>
+					<label for="cvv" class="cvv">CVV / CVN</label>
+				</div>
+				<div class="input__date-wrapper">
+					<input id="date" type="number" class="date__value-left" placeholder="02">
+					<input id="date" type="number" class="date__value-right" placeholder="2017">
+					<input type="password" class="cvv__value" placeholder="***">
+				</div>
+			</div>
+		</div>
+		<img src="img/moon_flag.png" class="img" alt="">
+	</form>
 
 </body>
 
