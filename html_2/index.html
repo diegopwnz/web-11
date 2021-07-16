@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div class="inputs">
+		<h1 class="title">Inputs</h1>
+		<div class="inputs__wrapper">
+			<input class="input" type="text" placeholder="Enter some text">
+			<input class="input__valid input" type="text" placeholder="valid text">
+			<span class="input__valid-after"></span>
+			<input class="input__invalid input" type="text" placeholder="invalid text">
+			<span class="input__invalid-after"></span>
+		</div>
+	</div>
+
+	<div class="checkboxes">
+		<h2 class="title">Check boxes</h2>
+		<div class="green">
+			<input id="subs" type="checkbox" class="green__checkbox">
+			<label for="subs">Subscribe</label>
+		</div>
+		<div class="red">
+			<input id="subscribe" type="checkbox" class="red__checkbox">
+			<label for="subscribe">Subscribe</label>
+		</div>
+	</div>
+
+	<div class="radio__buttons">
+		<h3 class="title">Radio buttons</h3>
+		<p>Gender:</p>
+		<input type="radio" checked class="radio" id="radio" />
+		<label for="radio">Male</label>
+		<input type="radio" class="radio__female" id="radio__female" />
+		<label for="radio__female">Female</label>
+	</div>
+
+
+	<div class="buttons">
+		<h4 class="title">Buttons</h4>
+		<div class="buttons__wrapper">
+			<button type="button" class="btn__active btn">Active</button>
+			<button type="button" class="btn__hover btn">Hover</button>
+			<button type="button" class="btn__danger btn">Danger</button>
+			<button type="button" class="btn__hover-two btn">Hover</button>
+			<button disabled type="button" class="btn__disabled btn">Disabled</button>
+			<button type="button" class="btn__plus circle">+</button>
+			<button type="button" class="btn__minus circle">-</button>
+		</div>
+
+		<div class="texarea">
+			<h5 class="title">Text area</h5>
+			<textarea class="textarea" name="text" id="text" cols="50" rows="5"
+				placeholder="Enter some text..."></textarea>
+		</div>
+	</div>
+</body>
+
+</html>
