@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Settings</title>
+</head>
+
+<body>
+	<div class="container-fluid">
+
+		<header class="d-flex justify-content-around bg-info align-items-center">
+			<ul class="nav">
+				<img src="img/user-graduate-solid.svg" width="25px" alt="">
+				<li class="nav-item">
+					<a class="nav-link text-primary  " href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-primary  " href="homework.html">Homework</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active text-white " aria-current="page" href="#">Settings</a>
+				</li>
+			</ul>
+			<img src="img/av_64.png" width="65px" alt="">
+		</header>
+	</div>
+	<h1 class="display-6 text-center htmlcss card__margin-bottom">Settings</h1>
+
+	<div class="container bg-info d-flex justify-content-around rounded">
+		<a class="nav-link" href="#">AVATAR</a>
+		<a class="nav-link" href="#">STUDENT'S INFO</a>
+		<a class="nav-link" href="#">CHANGE PASSWORD</a>
+	</div>
+
+	<div class="container d-flex justify-content-around htmlcss">
+		<div class="userphoto d-flex flex-column align-items-center">
+			<img src="img/av_256.png" alt="">
+			<button class="rounded bg-secondary" type="file" style="width: 80%;" ">Choose photo</button>
+		</div>
+<div class=" studentinfo d-flex flex-column justify-content-between" style="width: 30%;">
+				<input type="text" placeholder="First name">
+				<input type="text" placeholder="Last name">
+				<input type="email" placeholder="Email">
+				<input type="phone" placeholder="Phone nubmer">
+				<input type="text" placeholder="Adress">
+				<input type="text" placeholder="Fb link">
+				<button class="rounded bg-secondary" type="button">Save changes</button>
+		</div>
+
+		<div class=" studentpassword d-flex flex-column justify-content-between" style="width: 30%;">
+			<input type="text" placeholder="Old password">
+			<input type="text" placeholder="New password">
+			<input type="email" placeholder="Repeat password">
+			<button class="rounded bg-secondary" type="button">Change password</button>
+		</div>
+	</div>
+</body>
+
+</html>

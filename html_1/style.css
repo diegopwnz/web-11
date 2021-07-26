@@ -1,14 +1,53 @@
-.container {
-	max-width: 800px;
-	margin: 0 auto;
-	background-color: rgb(228, 224, 224);
-	padding: 15px;
+.holiday {
+	margin-right: 25px;
 }
 
-h1 {
-	text-align: center;
+.padding__weekends {
+	padding: 10px;
 }
 
-.title {
-	color: grey;
+.bage {
+	margin: 0 25px 0 0;
+}
+
+.border__right {
+	padding: 5px;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+.btn {
+	margin: 0 15px;
+}
+
+.circle {
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+.current {
+	margin: 0;
+	padding-right: 5px;
+}
+
+.js-text {
+	height: 80px;
+	padding-top: 50px;
+}
+
+.custom__btn {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	width: 50%;
+}
+
+.htmlcss {
+	margin-top: 50px;
+}
+
+.card__margin-bottom {
+	margin-bottom: 50px;
 }
