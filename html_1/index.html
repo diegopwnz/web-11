@@ -5,134 +5,201 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
 </head>
 
 <body>
-	<div class="container-fluid">
-		<header class="d-flex justify-content-around bg-info align-items-center">
-			<ul class="nav">
-				<img src="img/user-graduate-solid.svg" width="25px" alt="">
-				<li class="nav-item">
-					<a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-primary" href="homework.html">Homework</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-primary" href="#">Settings</a>
-				</li>
-			</ul>
-			<img src="img/av_64.png" width="65px" alt="">
-		</header>
-	</div>
-	<div class="container">
-		<p class="text-center fs-2">Dakota Greenway (ABC_123)</p>
-		<hr>
-	</div>
-
-	<div class="container d-flex justify-content-around">
-		<p class="text-center">News</p>
-		<p class="text-center">Rewards</p>
-	</div>
-
-	<div class="container d-flex justify-content-around ">
-		<div class="d-flex w-50 p-3 flex-column">
-			<div class="padding__weekends d-flex border border-dark rounded ">
-				<img class="holiday" src="img/holiday.png" alt="">
-				<div>
-					<div class="d-flex justify-content-between">
-						<p class="fs-4">Weekends</p>
-						<p class="text-right fw-lighter"> 1 days ago</p>
-					</div>
-					<p>Dear Students, kindly be informed that there will be no lessons on 5th and 6th April at the Academy
-						due
-						to the holiday.</p>
-				</div>
+	<header>
+		<nav class="blue">
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">SN</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><img src="img/av_64.png" width="55px" alt=""></li>
+					<li><a href="№">Luella Hubbard</a></li>
+				</ul>
 			</div>
-			<div class="padding__weekends d-flex flex-column border border-dark rounded ">
-				<div class="d-flex justify-content-between">
-					<p class="fs-4">Programming consultations</p>
-					<p class="text-right fw-lighter"> 3 days ago</p>
+		</nav>
+	</header>
+
+
+	<main class="main__wrapper row">
+		<div class="left-menu col s3 center-align">
+			<div class="collection  left__menu">
+				<div class="left__menu-flex left__menu active">
+					<img src="img/menu/user-circle-solid.svg" class="left__menu-img" alt="">
+					<a href="index.html" class="collection-item blue-text">My profile</a>
 				</div>
-				<p>This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultations for first-year
-					students.</p>
-			</div>
-			<div class="padding__weekends d-flex border border-dark rounded ">
-				<img class="holiday" src="img/bank.png" alt="">
-				<div>
-					<div class="d-flex justify-content-between">
-						<p class="fs-4">Meeting with ABC Bank</p>
-						<p class="text-right fw-lighter"> 20.03.2019</p>
-					</div>
-					<p>On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank.</p>
+				<div class="left__menu-flex left__menu">
+					<img src="img/menu/newspaper-regular.svg" class="left__menu-img" alt="">
+					<a href="index2.html" class="collection-item blue-text">News</a>
+				</div>
+				<div class="left__menu-flex left__menu">
+					<img src="img/menu/sms-solid.svg" class="left__menu-img" alt="">
+					<a href="#!" class="collection-item blue-text">Messages <span
+							style="color: #fff; background-color: blue; min-width: 1rem;" class="badge">4</span></a>
+				</div>
+
+				<div class="left__menu-flex left__menu">
+					<img src="img/menu/user-friends-solid.svg" class="left__menu-img" alt="">
+					<a href="#!" class="collection-item blue-text">Friends</a>
+				</div>
+				<div class="left__menu-flex left__menu">
+					<img src="img/menu/calendar-alt-solid.svg" class="left__menu-img" alt="">
+					<a href="#!" class="collection-item blue-text">Events</a>
+				</div>
+				<div class="left__menu-flex left__menu">
+					<img src="img/menu/photo-video-solid.svg" class="left__menu-img" alt="">
+					<a href="#!" class="collection-item blue-text">Media</a>
 				</div>
 			</div>
 		</div>
-		<div class="d-flex w-50 p-3 flex-column align-items-center">
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
+
+
+		<div class="profile col s2">
+			<div class="row">
+				<div class="col">
+					<div class="card darken-1">
+						<div class="card-content white-text">
+							<img src="img/av_256.png" width="150" alt="">
+							<button class="btn" type="button">EDIT</button>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex align-items-center">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
-			</div>
-			<div class="d-flex">
-				<p class="border__right">class attended</p>
-				<span class="fs-3">+1</span>
-				<img class="bage" src="img/badge.png" alt="">
-				<p class="border__right">20.04.2019</p>
+
+			<div class="friends__flex card darken-1">
+				<div class="firends__flex-item">
+					<img src="img/avatar_1.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_2.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_3.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_2.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_1.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_3.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_2.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_1.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+				<div class="firends__flex-item">
+					<img src="img/avatar_4.png" class="friends__img" alt="">
+					<p class="friends__img-text">Hassan Tomilin</p>
+				</div>
+
 			</div>
 		</div>
-	</div>
-	<div class="container d-flex">
-		<button type="button" class="btn btn-secondary w-50">More</button>
-		<button type="button" class="btn btn-light w-50">More</button>
-	</div>
+
+		<div class="news col s6">
+			<div class="news__profile card darken-1">
+				<h5>Luella Hubbard</h5>
+				<hr>
+				<div class="row">
+					<div class="col s4">
+						<p class="news__profile-text">Birthday</p>
+						<p class="news__profile-text">City:</p>
+					</div>
+					<div class="col s4">
+						<a href="#">August 13</a>
+						<br>
+						<a href="#">New Orleans</a>
+					</div>
+
+				</div>
+				<hr>
+
+				<div class="row">
+					<div class="col s4 center-align">
+						<a class="news__footer" href="#">245</a>
+						<p><a href="#">friends</a></p>
+					</div>
+					<div class="col s4 center-align">
+						<a class="news__footer" href="#">23</a>
+						<p><a href="#">events</a></p>
+					</div>
+					<div class="col s4 center-align">
+						<a class="news__footer" href="#">456</a>
+						<p><a href="#">media</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="news col s6">
+			<div class="news__profile card darken-1">
+				<div class="news__message-profile">
+					<img src="img/av_64.png" width="50px" alt="">
+					<div class="news__message-wrapper">
+						<p>Luella Hubbard</p>
+						<p class="message__date">1 apr 2018</p>
+					</div>
+				</div>
+
+				<p class="news__text">
+					Mauris in aliquet purus, sed interdum sapien. Fusce fermentum justo a purus tempor ornare. Nulla convalis
+					nibh sed dignissim imperdiet. Mauris nec urna iaculis, molestie lorem a, venenatis mi. Donec vel viverra
+					ex, et pallentesque erat. Nunc ut fermentum nisl. In vestibulum augue eget eros faucibus, a posuere est
+					ornare. Vestibulum ante impsum primis in faucibus orci luctus et ulrisec posuere cobilia Curae.
+				</p>
+				<hr>
+				<i class="material-icons">favorite_border</i> <span>398</span>
+				<i class="material-icons">featured_play_list</i> <span>149</span>
+				<i class="material-icons">reply</i>
+			</div>
+		</div>
+
+		<div class="news col s6">
+			<div class="news__profile card darken-1">
+				<div class="news__message-profile">
+					<img src="img/av_64.png" width="50px" alt="">
+					<div class="news__message-wrapper">
+						<p>Luella Hubbard</p>
+						<p class="message__date">1 apr 2018</p>
+					</div>
+				</div>
+
+				<p class="news__text">
+					Mauris in aliquet purus, sed interdum sapien. Fusce fermentum justo a purus tempor ornare. Nulla convalis
+					nibh sed dignissim imperdiet. Mauris nec urna iaculis, molestie lorem a, venenatis mi. Donec vel viverra
+					ex, et pallentesque erat. Nunc ut fermentum nisl. In vestibulum augue eget eros faucibus, a posuere est
+					ornare. Vestibulum ante impsum primis in faucibus orci luctus et ulrisec posuere cobilia Curae.
+				</p>
+				<hr>
+				<i class="material-icons">favorite_border</i> <span>398</span>
+				<i class="material-icons">featured_play_list</i> <span>149</span>
+				<i class="material-icons">reply</i>
+			</div>
+		</div>
+	</main>
+
+
+
+
 </body>
 
 </html>

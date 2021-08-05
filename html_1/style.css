@@ -1,53 +1,133 @@
-.holiday {
-	margin-right: 25px;
+p {
+	margin: 0;
+	padding: 0;
 }
 
-.padding__weekends {
-	padding: 10px;
+hr {
+	opacity: 0.2;
 }
 
-.bage {
-	margin: 0 25px 0 0;
+.nav-wrapper {
+	margin: 0 35px;
 }
 
-.border__right {
-	padding: 5px;
-	border: 1px solid #000;
-	border-radius: 5px;
+
+.main__wrapper {
+	margin-top: 25px;
+}
+
+
+
+.left__menu {
+	position: relative;
+	margin-left: 25px;
+	border: none;
+}
+
+
+
+.left__menu-flex {
+	display: flex;
+}
+
+.left__menu-img {
+	width: 25px;
+	display: block;
 }
 
 .btn {
-	margin: 0 15px;
+	width: 100%;
 }
 
-.circle {
-	display: block;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
+.friends__flex {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
 }
 
-.current {
-	margin: 0;
-	padding-right: 5px;
+.firends__flex-item {
+	width: 33%;
 }
 
-.js-text {
-	height: 80px;
-	padding-top: 50px;
+.friends__img {
+	width: 45px;
 }
 
-.custom__btn {
-	border: 1px solid #fff;
-	background-color: transparent;
-	color: #fff;
-	width: 50%;
+.friends__img-text {
+	width: 33%;
+	font-size: 14px;
 }
 
-.htmlcss {
-	margin-top: 50px;
+
+.news__profile {
+	padding: 25px;
 }
 
-.card__margin-bottom {
-	margin-bottom: 50px;
+.news__profile-text {
+	opacity: 0.5;
+}
+
+.news__footer {
+	font-size: 28px;
+}
+
+.news__message-profile {
+	display: flex;
+}
+
+.news__message-wrapper {
+	margin-left: 25px;
+	display: flex;
+	flex-direction: column;
+}
+
+.message__date {
+	opacity: 0.3;
+}
+
+.news__text {
+	padding: 15px;
+}
+
+.bg-card {
+	background-color: rgba(0, 0, 0, 0.171);
+	width: 100%;
+}
+
+.card-icons {
+	margin-bottom: 15px;
+}
+
+.center-news {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 100%;
+}
+
+
+.active__chat {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.chat__flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.chat__time {
+	opacity: 0.5;
+	font-size: 12px;
+}
+
+.chat {
+	display: flex;
+	flex-direction: column;
+}
+
+.chat__form {
+	margin-top: 50%;
 }
